@@ -1,0 +1,467 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.parent-container{
+    position: relative;
+
+}
+
+.child-container{
+    background: url(Assignment\ 2\ image.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+}
+
+/* Nav Bar */
+.navbar-brand{
+    margin-left: 10px;
+}
+.navbar{
+    position: fixed;
+}
+.nav-item{
+    padding: 10px;
+    margin: 10px 20px;
+}
+/* Nav Bar End */
+
+.text-container{
+    display: flex;
+    text-align: left;   
+}
+.hometext{   
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700px;
+    top: 40%;
+    margin-left: 140px;
+    margin-bottom: 15px;
+}
+.smalltext{
+    position: absolute;
+    width: 600px;
+    color: rgb(124, 160, 163);
+    top: 50%;
+    margin-left: 140px;
+    margin-bottom: 20px;
+}
+.smalltext p{
+    top: 50%;
+    margin-left: 140px;
+    margin-bottom: 20px;
+}
+.but{
+    margin-left: 140px;
+    margin-top: 360px;
+
+}
+.my-button {
+    background-color: rgb(53, 103, 102);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+.my-button:hover{
+    background-color: rgb(63, 140, 145) ;
+}
+/* Homepage css end here */
+
+
+.center-container{
+    position: absolute;
+    top: 105%;
+    margin-bottom: 100px;
+}
+
+/* Front end container */
+.sst{
+    color: rgb(63, 140, 145);
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.frontend{
+    height: 700px;
+    border: 1px solid black;
+}
+.frontend-left{
+    display: flex;
+    background-image: url(christina-wocintechchat-com-UTw3j_aoIKM-unsplash.jpg);
+    background-position: center;
+    background-size:cover;
+    width: 50%;
+    height: 500px;
+}
+
+.frontend-right{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 55%;
+    width: 30%;
+}
+
+/* Front end container end here */
+
+/* Skill section container start here */
+.front{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 15px 15px;
+    margin-bottom: 80px;
+}
+.frontleft{
+    width: 720px;
+    height: 500px;
+}
+.frontleft-image img{
+    height: 500px;
+    width: 740px;   
+}
+.frontright{
+    width: 720px;
+    height: 500px;
+}
+.frontright-content{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.box{
+    margin: 15px 10px;
+    height: 120px;
+    width: 600px;
+    margin-left: 60px;
+}
+
+.box1 img{
+    background: url(pencil-solid.svg);
+    display: inline-block;
+    vertical-align: middle;
+    top: 0; 
+    right: 0; 
+    width: 40px; 
+    height: 50px; 
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    background-repeat: no-repeat;
+}
+.box2 img{
+    background: url(desktop-solid.svg);
+    display: inline-block;
+    vertical-align: middle;
+    top: 0; 
+    right: 0; 
+    width: 40px; 
+    height: 50px; 
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    background-repeat: no-repeat;
+}
+.box3 img{
+    background: url(shop-solid.svg);
+    display: inline-block;
+    vertical-align: middle;
+    top: 0; 
+    right: 0; 
+    width: 40px; 
+    height: 50px; 
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    background-repeat: no-repeat;
+}
+
+.h1text{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    color: rgb(63, 140, 145);
+    font-size: medium;
+}
+.rtext{
+    font-size: smaller;
+    margin-left: 55px;
+}
+/* Skill section container end here */
+
+.footer{
+    height: 550px;
+    margin-left: 55px;
+    
+}
+.mapp{
+    height: 150px;
+    width: 100%;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.personal{
+    position: absolute;
+    display: flex;
+}
+.personalleft{
+    margin-top: 20px;
+    padding: 10px;
+}
+.square{
+    margin: 10px 15px;
+    height: 70px;
+    width: 320px;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.3);
+} 
+.img1,.img2,.img3 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .img1 img {
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 50px; 
+    height: 50px; 
+    margin-right: 10px;
+  }
+
+  .img2 img {
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 50px; 
+    height: 50px; 
+    margin-right: 10px;
+  }
+
+  .img3 img {
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 50px; 
+    height: 50px; 
+    margin-right: 10px;
+  }
+  
+  .img1 p ,.img2 p , .img3 p{
+    margin: 0;
+  }
+
+  .personalright{
+    padding: 10px;
+    margin-top: 40px;
+    height: 120px;
+    width: 800px;
+    border-radius: 5px;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .boxy{
+    position: absolute;
+    height: 95px;
+    width: 800px;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 180px;
+    margin-left: 370px;
+    border-radius: 5px;
+  }
+  .boxycontent{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(63, 140, 145);
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px; 
+  }
+  .boxycontent a{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(63, 140, 145);
+    padding: 50px;
+  }
+  
+  .submit-button{
+    margin-top: 300px;
+    border: 1px solid;
+    width: 97%;
+    height: 50px;
+    margin-left: 23px;
+    margin-bottom: 50px;
+    background-color: rgb(63, 140, 145);
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+  }
+  .submit-button p{
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+  }
+
+
+
+  @media only screen and (max-width: 600px) {
+
+    .footer {
+      height: auto;
+      margin: 0;
+      padding: 20px;
+    }
+  
+    .mapp {
+      height: auto;
+      width: 100%;
+      box-shadow: none;
+    }
+  
+    .personal {
+      position: static;
+      display: block;
+    }
+  
+    .personalleft {
+      margin-top: 10px;
+      padding: 0;
+    }
+  
+    .square {
+      margin: 10px 0;
+      height: auto;
+      width: 100%;
+      box-shadow: none;
+    }
+  
+    .img1, .img2, .img3 {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom: 10px;
+    }
+  
+    .img1 img, .img2 img, .img3 img {
+      margin: 0 10px 0 5px;
+      width: 40px;
+      height: 40px;
+    }
+  
+    .personalright {
+      padding: 0;
+      margin-top: 20px;
+      height: auto;
+      width: 100%;
+      border-radius: 0;
+      box-shadow: none;
+    }
+  
+    .boxy {
+      position: static;
+      height: auto;
+      width: 100%;
+      box-shadow: none;
+      margin-top: 20px;
+      margin-left: 0;
+      border-radius: 0;
+    }
+  
+    .boxycontent {
+      text-align: center;
+      text-decoration: none;
+      color: rgb(63, 140, 145);
+      margin-top: 20px;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .boxycontent a {
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+      color: rgb(63, 140, 145);
+      padding: 20px;
+    }
+  
+    .submit-button {
+      margin-top: 20px;
+      margin-left: 0;
+      margin-bottom: 20px;
+    }
+  
+  }
+
+
+/* Styles for screens with width up to 767px (mobile screens) */
+@media (max-width: 767px) {
+
+    .front {
+      flex-direction: column;
+      margin: 15px;
+    }
+  
+    .frontleft, .frontright {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  
+    .frontleft-image img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .frontright-content {
+      margin-left: 0;
+    }
+  
+    .box {
+      margin: 15px 0;
+      height: auto;
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .box1 img, .box2 img, .box3 img {
+      display: none;
+    }
+  
+    .h1text {
+      font-size: 18px;
+      margin-left: 0;
+      margin-bottom: 5px;
+    }
+  
+    .rtext {
+      font-size: 14px;
+      margin-left: 0;
+    }
+  
+  }
+  
+  @media (max-width: 480px) {
+    .hometext {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+    .smalltext {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+    .my-button {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
+  
